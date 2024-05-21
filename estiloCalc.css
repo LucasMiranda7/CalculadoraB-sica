@@ -37,12 +37,16 @@ h2 {
   width: 200px;
 }
 
-.botoes {
+.botoes  {
   text-align: center;
   margin-left: 2px;
-  margin-top: 12px;
+  margin-top: 14px;
+  cursor: pointer;
 }
 
+
+
+ 
 .botaoRed {
   color: white;
   background-color: #ff595fbd;
@@ -58,7 +62,6 @@ h2 {
 .botaoRed:hover {
   border: 1px solid #ff595f81;
   background-color: #ff595f7a;
-  
 }
 
 .botaoYellow {
