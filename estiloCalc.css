@@ -1,0 +1,97 @@
+@charset "UTF-8";
+  
+* {/*Configs Globais*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-image: linear-gradient(to right,#1f5477, #081B29, #033f57);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #0d2e46b2;
+  font-size: 17px;
+}
+
+.calculadora {
+  background-color: #0d2e46;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  box-shadow: 3px 3px 7px #081B29;
+  text-align: justify;
+  width: 17em;
+  height: 29em;
+  padding: 10px;
+  margin: 14em auto;
+}
+
+.resultado {
+  background-color: #113a5783;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #0D2E46;
+  border: 1px solid rgba(255, 255, 255, 0.137);
+  margin: 0 auto;
+  padding: 27px;
+  width: 200px;
+}
+
+.botoes {
+  text-align: center;
+  margin-left: 2px;
+  margin-top: 12px;
+}
+
+.botaoRed {
+  color: white;
+  background-color: #ff595fbd;
+  box-shadow: 2px 2px 3px #ff595f1a;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+  margin: 2px;
+  height: 58px;
+  width: 58px;
+}
+
+.botaoRed:hover {
+  border: 1px solid #ff595f81;
+  background-color: #ff595f7a;
+  
+}
+
+.botaoYellow {
+  color: white;
+  background-color: #ffca3ad3;
+  box-shadow: 2px 2px 3px #ffca3a09;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+  margin: 2px;
+  height: 58px;
+  width: 58px;
+}
+
+.botaoYellow:hover {
+  border: 1px solid #ffca3a4d;
+  background-color: #ffca3aa2;
+}
+
+ .botao {
+  background-color: #ffffff09;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #033f5721;
+  border: 0px;
+  padding: 10px;
+  margin: 2px;
+  height: 58px;
+  width: 58px;
+}
+
+button:hover {
+  border: 1px solid #06afd513;
+  background-color:  #06afd509;
+}
+
